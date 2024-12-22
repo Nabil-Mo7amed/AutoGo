@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -158,6 +162,29 @@ body {
 
 .btn:hover {
   opacity: 0.8;
+}
+
+.scroll {
+  position: relative;
+}
+
+.top-btn {
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #e74c3c;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.top-btn i {
+  line-height: 45px;
 }
 
 .welcome,
@@ -644,7 +671,6 @@ body {
 
 .fimg1 .imgs .person-info p {
   color: #bbcbc9;
-
 }
 
 .fimg1 .imgs .div .img-info2 {
