@@ -209,19 +209,17 @@ body {
 
 .welcome-content,
 .pricing-content {
-  width: 90%;
+  width: 80%;
   margin: 120px auto 0 auto;
   position: relative;
 }
 
 .welcome-content div {
-  width: 25%;
+  width: 30%;
   text-align: center;
-  margin-left: 3%;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  display: inline-block;
-  height: 205px;
+  float: left;
   line-height: 1.5;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
@@ -229,7 +227,7 @@ body {
 }
 
 .welcome-content .div1 {
-  margin-left: 10%;
+  margin: 0 5%;
 }
 
 .welcome-content div h3 {
@@ -250,7 +248,7 @@ body {
 .welcome-content div a {
   text-decoration: none;
   display: block;
-  margin: 10px 0;
+  margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
   color: #0d00ff;
@@ -360,12 +358,10 @@ body {
 }
 
 .offer-content div {
-  width: 25%;
-  margin-left: 4%;
+  width: 30%;
   margin-bottom: 47px;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  height: 205px;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
   float: left;
@@ -374,10 +370,11 @@ body {
 }
 
 .offer-content .div1 {
-  margin-left: 9%;
+  margin: 0 5%;
 }
 
 .offer-content div i {
+  display: block;
   font-size: 30px;
   color: rgb(0, 140, 255);
 }
@@ -540,13 +537,11 @@ body {
 }
 
 .pricing-content .div {
-  width: 25%;
+  width: 30%;
   text-align: center;
-  margin-left: 4%;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
-  display: inline-block;
-  height: 345px;
+  float: left;
   line-height: 1.5;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
@@ -554,7 +549,7 @@ body {
 }
 
 .pricing-content .div1 {
-  margin-left: 8%;
+  margin: 0 5%;
 }
 .pricing-content div p {
   margin: 15px 0;
@@ -722,10 +717,9 @@ body {
 .team-content .team-item {
   width: 30%;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   border-radius: 10px;
   float: left;
-  height: 350px;
   line-height: 1.5;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
@@ -813,10 +807,9 @@ body {
 .news-content .news-item {
   width: 30%;
   text-align: center;
-  padding: 15px;
+  padding: 20px 15px 15px 15px;
   border-radius: 10px;
   float: left;
-  height: 450px;
   line-height: 1.5;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
