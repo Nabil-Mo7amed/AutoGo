@@ -40,16 +40,33 @@ body {
 
 .list li {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 19px;
 }
 
 .list li a {
   text-decoration: none;
-  color: #fff;
+  color: #ddd;
+  position: relative;
+  letter-spacing: 0.5px;
 }
 
 .list li a:hover {
-  color: rgb(253 0 31);
+  color: #fff;
+}
+
+.list li a::after{
+  content: "";
+  position: absolute;
+  background-color: rgb(253 0 31);
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -9px;
+  transition: 0.35s;
+}
+
+.list li a:hover::after{
+  width: 100%;
 }
 
 .left-header {
@@ -70,6 +87,7 @@ body {
   border-radius: 20px;
   margin-left: 50px;
   text-indent: 25px;
+
 }
 
 .search-input::-webkit-search-cancel-button {
@@ -89,11 +107,13 @@ body {
 .user {
   margin-top: 2;
   cursor: pointer;
+  /* color: #ddd; */
 }
 
-.user:hover {
+/* .user:hover {
   color: rgb(253 0 31);
-}
+  color: #fff;
+} */
 
 .container-img {
   width: 100%;
@@ -217,7 +237,7 @@ body {
 .welcome-content div {
   width: 30%;
   text-align: center;
-  padding: 30px;
+  padding: 25px;
   border-radius: 10px;
   float: left;
   line-height: 1.5;
@@ -351,7 +371,7 @@ body {
 }
 
 .offer-content {
-  width: 90%;
+  width: 83%;
   margin: 65px auto 0 auto;
   position: relative;
   overflow: auto;
@@ -360,7 +380,7 @@ body {
 .offer-content div {
   width: 30%;
   margin-bottom: 47px;
-  padding: 30px;
+  padding: 25px;
   border-radius: 10px;
   border: #1d2a35 2px solid;
   text-transform: capitalize;
@@ -539,7 +559,7 @@ body {
 .pricing-content .div {
   width: 30%;
   text-align: center;
-  padding: 30px;
+  padding: 25px;
   border-radius: 10px;
   float: left;
   line-height: 1.5;
@@ -717,7 +737,7 @@ body {
 .team-content .team-item {
   width: 30%;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   border-radius: 10px;
   float: left;
   line-height: 1.5;
